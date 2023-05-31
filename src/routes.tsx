@@ -2,7 +2,7 @@ import { Navigate, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { AuthRoutes } from './features/auth';
 import GuardedRoute from './common/components/GuardedRoute';
-import { Dashboard } from './common/pages';
+import Dashboard from './common/pages/Dashboard';
 
 export const Pages = {
   Dashboard: '/dashboard',
