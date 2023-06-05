@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header } from './Header';
-import Transitions from '../../components/Transitions';
+import { Transitions } from '@/common/components';
 import Aside from './Aside';
 
 const Dashboard: React.FC = () => {

@@ -1,11 +1,8 @@
-import { DropdownMenu } from '../../components/DropdownMenu';
+import { DropdownMenu } from '@/common/components';
 import { Input } from '@mantine/core';
-import bitcoin from 'assets/icons/bitcoin.svg';
-import { HiSearch, HiPlusSm, HiMenu, HiOutlineBell } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
+import { HiSearch, HiMenu, HiOutlineBell } from 'react-icons/hi';
 
 type HeaderProps = {
-  // user: User;
   onOpenDrawer: () => void;
   onLogout: () => void;
 };
@@ -29,20 +26,6 @@ export const Header = ({ onLogout, onOpenDrawer }: HeaderProps) => {
           radius="xl"
           size="md"
         />
-
-        {/* <Link
-          to="/dashboard/buy"
-          className="btn hidden border-white bg-white text-primary md:inline-flex"
-        >
-          <img src={bitcoin} className="h-3" alt="Bitcoin Logo" />
-          <span>Buy</span>
-        </Link>
-        <Link
-          to="/dashboard/sell"
-          className="btn hidden border border-white bg-none md:inline-flex"
-        >
-          <HiPlusSm className="h-5 shrink-0" /> <span>Sell</span>
-        </Link> */}
 
         <div className="h-full w-[1px] bg-white" />
 

@@ -1,9 +1,7 @@
 import AppearDown from './AppearDown';
 import FadeIn from './FadeIn';
 
-const Transitions = {
+export const Transitions = {
   AppearDown,
   FadeIn,
 };
-
-export default Transitions;

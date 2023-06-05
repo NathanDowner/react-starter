@@ -1,11 +1,4 @@
-// import { TemplateIcon } from '@heroicons/react/outline';
-// import logo from 'assets/imgs/unbank-logo.svg';
-import {
-  HiClipboardList,
-  HiCurrencyDollar,
-  HiLocationMarker,
-  HiQuestionMarkCircle,
-} from 'react-icons/hi';
+import { HiClipboardList, HiQuestionMarkCircle } from 'react-icons/hi';
 import NavItem, { NavItemProps } from './NavItem';
 
 type AsideProps = {
